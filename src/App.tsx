@@ -1,7 +1,13 @@
 import React from "react";
+import Body from "./component/Body";
+import "./App.css";
 
 const App = () => {
-  return <div>Hello World!</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 };
 
 export default App;
